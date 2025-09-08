@@ -1,2 +1,8 @@
 # Particle-Filter-Optimization
 PFO algorithm for robust optimization. The folder contains the codes for tests on two benchmark functions (2D Branin function and a 1D user-defined Gaussian mixture function) and a practical example of a styrene reactor where profit maximization is the aim.
+
+These codes gives the basis of the work documented in 
+Kenyeres, É., Kummer, A., & Abonyi, J. (2025). Improvements of particle filter optimization algorithm for robust optimization under different types of uncertainties. Heliyon, 11(1).
+<a href="https://doi.org/10.1016/j.heliyon.2024.e41573">DOI: 10.1016/j.heliyon.2024.e41573</a>
+
+This paper introduces a methodology for handling different types of uncertainties during robust optimization. In real-world industrial optimization problems, many types of uncertainties emerge, e.g., inaccurate setting of control variables, and the parameters of the system model are usually not known precisely. For these reasons, the global optimum considering the nominal values of the parameters may not give the best performance in practice. This paper presents a widely usable sampling-based methodology by improving the Particle Filter Optimization (PFO) algorithm. Case studies on benchmark functions and even on a practical example of a styrene reactor are introduced to verify the applicability of the proposed method on finding robust optimum, and show how the users can tune this algorithm according to their requirement. The results verify that the proposed method is able to find robust optimums efficiently under parameter and decision variable uncertainties, as well.
