@@ -39,3 +39,6 @@ Results:
 <ul>
 <li>sensitivity_dx&dw1.mat: some results on the Gaussian function</li>
 </ul>
+
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
